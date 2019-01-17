@@ -5,7 +5,7 @@ module.exports = {
     sidebar: [
       '/',
       '/page1',
-      '/page2',
+      '/cli-plugins',
       [
         '/page3',
         'Custom link page'
