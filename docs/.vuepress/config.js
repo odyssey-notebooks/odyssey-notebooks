@@ -3,15 +3,14 @@ module.exports = {
   serviceWorker: true,
   themeConfig: {
     sidebar: [
-      '/',
-      '/commands',
-      '/cli-plugins',
       [
-        '/page3',
-        'Custom link page'
-      ]
+        '/overview',
+        'Overview'
+      ],
+      '/commands',
+      '/cli-plugins'
     ]
   },
   title: 'Odyssey Notebooks',
-  base: '/odyssey-notebooks/'
+  base: '/'
 }
