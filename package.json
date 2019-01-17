@@ -10,10 +10,10 @@
     "docs:build": "vuepress build docs",
     "docs:dev": "vuepress dev docs",
     "electron:build": "vue-cli-service electron:build",
-    "electron:serve": "vue-cli-service electron:serve",
+    "electron:dev": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
     "storybook:build": "vue-cli-service storybook:build -c config/storybook",
-    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
+    "storybook:dev": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },
