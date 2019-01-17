@@ -3,10 +3,25 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <br>
+      <br>
+      {{ notions }}
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+import { mixins } from '@vue-feathers/vue-feathers'
+const mixin = mixins.StreamsMixin(['notions'])
+
+export default {
+  mixins: [mixin],
+  mounted() {
+    this.subAll()
+  }
+}
+</script>
 
 <style lang="scss">
 @import 'assets/styles/tailwind.postcss';
