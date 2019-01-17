@@ -1,16 +1,18 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
+import SimpleVuex from 'simple-vuex'
 
-Vue.use(Vuex)
+Vue.use(SimpleVuex)
 
-export default new Vuex.Store({
-  state: {
-
-  },
-  mutations: {
-
-  },
-  actions: {
-
+export default SimpleVuex.Store({
+  modules: {
+    app: {
+      state: {
+        height: 0,
+        width: 0,
+        mode: 'mobile',
+        menuExpanded: false,
+        editing: false
+      }
+    }
   }
 })
