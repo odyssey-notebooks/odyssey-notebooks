@@ -1,0 +1,2 @@
+{"name":"Places","icon":"mdi-crosshairs-gps","prefix":">","_id":"BI5R6dufyTV92wmR"}
+{"name":"People","icon":"mdi-account-multiple-outline","prefix":"@","features":["groups","markable","iconic"],"default":{"icon":{"type":"mdi","badgeType":"circle","mdi":"mdi-account-circle"}},"groups":{"family":"mdi-home-account","coworker":"mdi-account-tie"},"mark":{"inactive":"mdi-heart-outline","active":"mdi-heart"},"_id":"KbaIasZWIBmkXb0k"}
