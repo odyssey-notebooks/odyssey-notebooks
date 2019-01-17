@@ -2,7 +2,13 @@
 
 ## Project setup
 ```
+npm install -g @kadabra/server
 npm install
+```
+
+### Run the backend
+```
+kadabra
 ```
 
 ### Compiles and hot-reloads for development
