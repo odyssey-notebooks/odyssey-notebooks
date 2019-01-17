@@ -9,6 +9,8 @@
     "electron:build": "vue-cli-service electron:build",
     "electron:serve": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
+    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
+    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },
@@ -21,6 +23,8 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.1.0",
     "@ky-is/vue-cli-plugin-tailwind": "^1.5.0",
+    "@storybook/addon-actions": "^4.1.0",
+    "@storybook/addon-links": "^4.1.0",
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-plugin-e2e-cypress": "^3.3.0",
     "@vue/cli-plugin-eslint": "^3.3.0",
@@ -39,6 +43,7 @@
     "sass-loader": "^7.0.1",
     "tailwindcss": "^0.7.0",
     "vue-cli-plugin-electron-builder": "^1.0.0-rc.10",
+    "vue-cli-plugin-storybook": "^0.5.0",
     "vue-template-compiler": "^2.5.21"
   },
   "main": "background.js"
