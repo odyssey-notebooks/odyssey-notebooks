@@ -4,7 +4,7 @@ module.exports = {
   themeConfig: {
     sidebar: [
       '/',
-      '/page1',
+      '/commands',
       '/cli-plugins',
       [
         '/page3',
