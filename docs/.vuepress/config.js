@@ -8,7 +8,7 @@ module.exports = {
         'Overview'
       ],
       '/commands',
-      '/cli-plugins'
+      '/about'
     ]
   },
   title: 'Odyssey Notebooks',
